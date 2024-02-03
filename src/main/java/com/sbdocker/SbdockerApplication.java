@@ -23,7 +23,7 @@ public class SbdockerApplication {
 	@GetMapping("/test")
 	public String m1()
 	{
-		return "test success";
+		return "test success 1";
 	}
 	
 }
