@@ -20,4 +20,10 @@ public class SbdockerApplication {
 		return "success";
 	}
 	
+	@GetMapping("/test")
+	public String m1()
+	{
+		return "test success";
+	}
+	
 }
